@@ -1,0 +1,1 @@
+paddlespeech_server start --config_file ./tts_online_application.yaml 

@@ -1,0 +1,1 @@
+opencc -i input.txt -o input.txt -c t2s.json
