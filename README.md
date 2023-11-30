@@ -8,7 +8,7 @@
 
 ## Platform Support
 
-The `Chat-bot` can only be comipled and run in Apple macOS. 
+`Chat-bot` can only be comipled and run in Apple macOS. 
 
 Make sure that the platform has an Apple M series chip with at least 16 GB unified memory. 
 
