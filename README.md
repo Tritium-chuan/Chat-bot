@@ -99,7 +99,7 @@ Place whisper models `.bin` files in whisper-models folder.
 
 > To ensure accurate recognition of Chinese speech, large model is needed.
 >
-> For example, `ggml-large-v1.bin` should be placed in `Chat-bot-dir/whisper-models/` folder.
+> For example, `ggml-large-v1.bin` should be placed in `Chat-bot-dir/whisper-models` folder.
 
 `PaddleSpeech` models will be downloaded automatically when using `Chat-bot`.
 
@@ -198,4 +198,4 @@ Start `main`.
 
 ## Acknowledgement
 
-The author would like to thank `ChatGPT` for assisting writing codes and reading development documents.
+The author would like to thank `ChatGPT`'s assistance in writing codes and reading development documents.
