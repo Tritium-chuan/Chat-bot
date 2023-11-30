@@ -6,7 +6,7 @@
 
 `Chat-bot` is a chat robot that can be run entirely locally. Speech-to-text model [Whisper](https://github.com/openai/whisper), large-language model [llama](https://github.com/facebookresearch/llama), and text-to-speech model [PaddleSpeech](https://github.com/PaddlePaddle/PaddleSpeech) are ultilized in this project.
 
-## Platform Support
+## Supported Platform
 
 `Chat-bot` can only be comipled and run in Apple macOS. 
 
