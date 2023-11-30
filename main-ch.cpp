@@ -119,6 +119,5 @@ int main() {
         system(command3tmp.c_str());
         cout << '\n';
     }
-
     return 0;
 }
