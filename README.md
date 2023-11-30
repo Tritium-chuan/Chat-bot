@@ -59,7 +59,7 @@ Clone the project.
 git clone https://github.com/Tritium-chuan/Chat-bot.git
 ```
 
-Compile Chat-bot using `g++`.
+Compile `Chat-bot` using `g++`.
 
 > Compile main.cpp and main-ch.cpp.
 
