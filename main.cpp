@@ -108,7 +108,7 @@ int main() {
         textBuffer();
 
     // Text to audio
-        freopen("Output.txt","r",stdin);
+        freopen("output.txt","r",stdin);
         fgets(tmpText, 1000, stdin);
         fclose(stdin);
         freopen("/dev/tty","r",stdin);
