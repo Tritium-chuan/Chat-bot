@@ -61,7 +61,7 @@ git clone https://github.com/Tritium-chuan/Chat-bot.git
 
 Compile `Chat-bot` using `g++`.
 
-> Compile main.cpp and main-ch.cpp.
+> Compile `main.cpp` and `main-ch.cpp`.
 
 Clone [Whisper.cpp](https://github.com/ggerganov/whisper.cpp), [llama.cpp](https://github.com/ggerganov/llama.cpp), and [PaddleSpeech](https://github.com/PaddlePaddle/PaddleSpeech).
 
@@ -73,7 +73,7 @@ git https://github.com/PaddlePaddle/PaddleSpeech
 
 Complie `Whisper.cpp` and `llama.cpp` using `make`.
 
-> Read `README.md` files in `Whisper.cpp` and `llama.cpp`. Make sure that the [server](https://github.com/ggerganov/whisper.cpp/tree/6559b538e5e05cfa199c15d46ca5bd0edd353974/examples/server) of Whisper.cpp and [server](https://github.com/ggerganov/llama.cpp/tree/1f5cd83275fabb43f2ae92c30033b384a3eb37b4/examples/server) of Llama.cpp is compiled and ready to use. 
+> Read `README.md` files in `Whisper.cpp` and `llama.cpp`. Make sure that the [server](https://github.com/ggerganov/whisper.cpp/tree/6559b538e5e05cfa199c15d46ca5bd0edd353974/examples/server) of `Whisper.cpp` and [server](https://github.com/ggerganov/llama.cpp/tree/1f5cd83275fabb43f2ae92c30033b384a3eb37b4/examples/server) of `llama.cpp` is compiled and ready to use. 
 
 Install `PaddleSpeech`.
 
@@ -85,15 +85,15 @@ pip install .
 
 ### Model Download
 
-English Llama models can be downloaded from [Meta](https://ai.meta.com/llama/#download-the-model). 
+English llama models can be downloaded from [Meta](https://ai.meta.com/llama/#download-the-model). 
 
-Chinese Llama models can be downloaded [here](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2).
+Chinese llama models can be downloaded [here](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2).
 
 Place llama models `.gguf` files in llama-models folder.
 
 > For example, `ggml-model-q4_0.gguf` file of 7B-chat model should be placed in `Chat-bot-dir/llama-models/7B-chat` folder; `ggml-model-q4_0.gguf` file of 7B-Chinese model should be placed in `Chat-bot-dir/llama-models/7B-ch` folder.
 
-Whisper modela can be downloaded [here](https://huggingface.co/ggerganov/whisper.cpp/tree/main).
+Whisper models can be downloaded [here](https://huggingface.co/ggerganov/whisper.cpp/tree/main).
 
 Place whisper models `.bin` files in whisper-models folder.
 
@@ -114,8 +114,8 @@ Check `Chat-bot-dir`.
 ├── llama-cpp
 │
 ├── llama-models
-│   ├── 7B-ch
-│   └── 7B-chat
+│   ├── 7B-ch
+│   └── 7B-chat
 ├── whisper-cpp
 │
 └── whisper-models
