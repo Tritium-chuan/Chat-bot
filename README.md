@@ -23,7 +23,7 @@ Install [Anaconda](https://www.anaconda.com).
 Create environment: `Chatbot`.
 
 ```shell
-conda create -m Chatbot python=3.8.18
+conda create -n Chatbot python=3.8.18
 ```
 
 You can also create `conda` environment according to the configuration file.
